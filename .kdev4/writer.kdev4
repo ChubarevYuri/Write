@@ -1,0 +1,41 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x0c\x00w\x00r\x00i\x00t\x00e\x00r)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Основная система=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/chubarev/projects/writer/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=Основная система
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=writer
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x0c\x00w\x00r\x00i\x00t\x00e\x00r\x00\x00\x00\x0c\x00w\x00r\x00i\x00t\x00e\x00r)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/chubarev/projects/writer
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Kill Before Executing Again=4194304
+Project Target=writer,writer
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=
